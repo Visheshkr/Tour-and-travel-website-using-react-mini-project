@@ -21,7 +21,8 @@ const Data=[
     location:'New Zealand',
     grade:'CULTURAL RELAX',
     fees:'$700',
-    description:'The epitome of romance, Bora Bora is one of the best travel destinations in the world . This place is known for its luxurious stays and adventurous activities. '
+    description:'The epitome of romance, Bora Bora is one of the best travel destinations in the world . This place is known for its luxurious stays and adventurous activities. ',
+    link:'https://www.tahiti.com/island/bora-bora'
   },
   {
     id:2,
@@ -106,13 +107,13 @@ const Main = () => {
     <section className='main container section'>
       <div className="secTitle">
         <h3 data-aos="fade-right" className="title">
-          Most visited destinations
+          Most Visited Destinations
         </h3>
       </div>
       <div className="secContent grid">
 
         {
-          Data.map(({id,imgSrc,destTitle,location,grade,fees,description})=>{
+          Data.map(({id,imgSrc,destTitle,location,grade,fees,description,link})=>{
             return (
                   <div key={id} data-aos="fade-up" className="singleDestination">
                      <div className="imageDiv">

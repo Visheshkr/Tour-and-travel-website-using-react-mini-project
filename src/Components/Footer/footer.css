@@ -236,10 +236,10 @@
 }
 @media screen and (min-width: 1024px) {
   .footer {
-    padding: 5rem 0;
+    padding: 14rem 0;
   }
   .footer .secContent .footerCard {
-    padding: 3rem 1rem;
+    padding: 3rem 4rem;
   }
   .footer .secContent .footerCard .footerIntro .footerParagraph {
     font-size: 15px;

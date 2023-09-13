@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div data-aos="fade-up"  className="footerParagraph">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim beatae vel rerum fuga neque suscipit natus inventore veritatis animi expedita quo fugiat quos reiciendis porro iusto blanditiis non quisquam, libero ullam odit necessitatibus? Iste?
+          Welcome to WanderWorld, where adventure knows no bounds and wanderlust is an unstoppable force. Embark on a virtual voyage with us and discover a universe of awe-inspiring destinations, boundless possibilities, and experiences that will ignite your soul.
           </div>
           <div data-aos="fade-up" className="footerSocials flex">
             <AiOutlineTwitter className='icon'/>

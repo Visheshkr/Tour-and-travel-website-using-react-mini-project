@@ -133,7 +133,7 @@
   cursor: pointer;
 }
 .home .homeContent .cardDiv:hover {
-  background: var(--PrimaryColor);
+  background: rgb(124, 212, 245);
 }
 .home .homeContent .cardDiv .icon {
   font-size: 18px;
