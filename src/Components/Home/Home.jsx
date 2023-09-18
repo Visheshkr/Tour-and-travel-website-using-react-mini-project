@@ -10,6 +10,7 @@ import {BsListTask} from 'react-icons/bs'
 import {TbApps} from'react-icons/tb'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Navbar from '../Navbar/Navbar';
 const Home = () => {
   useEffect(()=>{
       Aos.init({duration:2000})
@@ -19,7 +20,9 @@ const Home = () => {
 
 
   return (
-   <section className='home'>
+    <>
+     <Navbar/>
+    <section className='home'>
     <div className="overlay"></div>
       <video src={video} muted autoPlay loop type="video/mp4"></video>
       <div className="homeContent container">
@@ -80,6 +83,7 @@ const Home = () => {
         </div>
     
    </section>
+   </>
   )
 }
 
