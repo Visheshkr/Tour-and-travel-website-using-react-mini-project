@@ -11,7 +11,9 @@
     --bodyColor:rgb(240,240,246);
     --cardBG:rgb(225,225,235);
 }
-
+body{
+    overflow-x: hidden;//for hidding the horizontal scroll bar from the page
+}
 .footer{
     width: 100%;
     position: relative;
